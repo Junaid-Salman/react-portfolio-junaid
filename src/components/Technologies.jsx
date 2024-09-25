@@ -85,7 +85,7 @@ const Technologies = () => {
                 initial="initial"
                 animate="animate"
                 className="rounded-2xl border-4 border-neutral-800 p-4">
-                <DiUnitySmall className="text-6xl text-black" /> {/* Changed to text-6xl */}
+                <DiUnitySmall className="text-6xl text-white" /> {/* Changed to text-6xl */}
             </motion.div>
 
             <motion.div 
