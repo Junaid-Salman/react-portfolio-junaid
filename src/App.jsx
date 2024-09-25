@@ -23,6 +23,7 @@ const App = () => {
         <Experience />
         <Projects />
         <Contact />
+        <Analytics />
       </div>
     </div>
   )
