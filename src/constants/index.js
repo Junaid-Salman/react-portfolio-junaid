@@ -42,11 +42,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Real-time Chat App using Pusher WebSockets",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A real-time chat application built with React, NestJS, and Pusher WebSockets, enabling seamless instant messaging with real-time updates and a smooth user experience.",
+    technologies: ["React", "NestJS", "Pusher", "TailwindCSS"],
   },
   {
     title: "ML based Network Intrusion Detection System",
