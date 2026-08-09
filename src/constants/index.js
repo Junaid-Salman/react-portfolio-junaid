@@ -86,7 +86,40 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Lahore, Paksiatn",
+  address: "Lahore, Pakistan",
   phoneNo: "+92 3486892824 ",
   email: "junaidsalman380@gmail.com",
+};
+
+export const CONTACT_FORM = {
+  labels: {
+    name: "Name",
+    email: "Email",
+    message: "Message",
+  },
+  placeholders: {
+    name: "Your name",
+    email: "you@example.com",
+    message: "What would you like to say?",
+  },
+  maxLength: {
+    name: 100,
+    email: 254,
+    message: 1000,
+  },
+  errors: {
+    name: "Please enter your name.",
+    email: "Please enter a valid email address.",
+    message: "Please enter a message.",
+  },
+  toast: {
+    success: "Thanks — your message is on its way. I'll get back to you soon.",
+    errorPrefix: "Something went wrong sending your message. Please try again, or email me directly at ",
+    errorSuffix: ".",
+  },
+  button: {
+    idle: "Send Message",
+    sending: "Sending…",
+  },
+  subjectTemplate: "New message from {name} — Portfolio Contact Form",
 };
